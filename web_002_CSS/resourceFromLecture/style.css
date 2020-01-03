@@ -1,0 +1,39 @@
+* {
+  text-align: left;
+  text-transform: capitalize;
+  color: blueviolet;
+}
+
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
+header {
+  background: darkcyan;
+  color: azure;
+}
+h2 + p {
+  color: rgba(112, 255, 3, 1);
+  text-align: center;
+  border: 3px darkcyan dashed;
+  cursor: pointer;
+}
+
+p {
+  color: white;
+  line-height: 25px;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: "Poiret One";
+}
+p:hover {
+  text-decoration: underline yellowgreen;
+  color: #a9fbff;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
