@@ -22,12 +22,13 @@ h2 + p {
 
 p {
   color: white;
-  line-height: 25px;
+  line-height: 70px;
   font-style: oblique;
   font-weight: bolder;
-  font-size: larger;
-  font-family: "Poiret One";
+  font-size: 200%;
+  font-family: "Dosis", sans-serif;
 }
+
 p:hover {
   text-decoration: underline yellowgreen;
   color: #a9fbff;
