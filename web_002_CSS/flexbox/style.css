@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+    border-bottom: 4px solid rgb(6, 151, 6);
+    border-top: 4px solid rgb(6, 151, 6);
+    width: 50%;
+    text-align: center;
+    margin-top: 12px;
+    box-shadow: 7px 7px 12px #999999;
+    word-wrap: break-word;
+}
+
+img {
+    width: 260px;
+    height: 325px;
+    margin: 12px;
+    transition: all 250ms;
+}
+
+img:hover {
+    transform: scale(1.125);
+}
